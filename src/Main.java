@@ -6,10 +6,25 @@
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println();
+        System.out.println("Задача № 1 : Вычислить n-ое треугольного число(сумма чисел от 1 до n), а так же n! ");
         Task_1.task_1();
-//        Task_2.task_2();
-//        Task_3.task_3();
-//        Task_4.task_4();
+        System.out.println();
+        System.out.println();
+        System.out.println("Задача № 2 : Вывести все простые числа от 1 до 1000");
+        Task_2.task_2();
+        System.out.println();
+        System.out.println("Задача № 3 : Реализовать простой калькулятор (+ - / *)");
+        Task_3.task_3();
+        System.out.println();
+        System.out.println();
+        System.out.println("Задача № 4 : Задано уравнение вида q + w = e, q, w, e >= 0. \n" +
+                "Некоторые цифры могут быть заменены знаком вопроса, например 2? + ?5 = 69 (пользователь). \n" +
+                "Требуется восстановить выражение до верного равенства. \n" +
+                "Предложить хотя бы одно решение или сообщить, что его нет.\n" +
+                "Ввод: 2? + ?5 = 69\n" +
+                "Вывод: 24 + 45 = 69");
+        Task_4.task_4();
     }
 }
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Task_1 {
     static void task_1() {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите число\n");
+        System.out.println("Введите число : ");
         int num = in.nextInt();
         int triNum = 0;
         int fact = 1;
@@ -18,6 +18,5 @@ public class Task_1 {
             fact *= i;
         }
         System.out.printf("Треугольное число = " + triNum + "\nN! = " + fact);
-        in.close();
     }
 }

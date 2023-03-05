@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task_2 {
     static void task_2() {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите число и я покажу все простые числа до вашего\n");
+        System.out.println("Введите число и я покажу все простые числа до вашего : ");
         int max = in.nextInt();
         System.out.println("Список простых чисел : ");
         for (int i = 2; i <= max; i++) {
@@ -19,7 +19,6 @@ public class Task_2 {
             }
             if (n) {
                 System.out.println(i);
-                in.close();
             }
         }
 
