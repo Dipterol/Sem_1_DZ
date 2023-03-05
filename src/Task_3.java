@@ -36,7 +36,7 @@ public class Task_3 {
                 System.out.println("Не знаком пока с такой операцией");
                 return;
         }
-        System.out.printf("Результат вычисления = " + result);
+        System.out.printf("Результат вычисления : " + num + " " + operator  + " " + num2 + " = " + result);
         in.close();
     }
 }
